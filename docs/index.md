@@ -115,7 +115,7 @@ Speak your community's language. Customize the bot's responses and interface lan
     <h3>Ready to upgrade your support?</h3>
     <p>Join TicketForge today for a complete ticketing experience.</p>
     <br>
-    <a class="md-button md-button--primary" href="https://discord.com/oauth2/authorize?client_id=1312832688889008218&permissions=2252160926870544&integration_type=0&scope=bot">
+    <a class="md-button md-button--primary" href="https://discord.com/oauth2/authorize?client_id=1312832688889008218&permissions=2252160926870544&integration_type=0&scope=applications.commands+bot">
         Invite Bot
     </a>
     <a class="md-button" href="https://ticketforge.xyz/">
