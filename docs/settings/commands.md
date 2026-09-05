@@ -45,7 +45,7 @@ You can fine-tune where commands work:
 | `/premium` | Shows the current server subscription tier, active features, and expiry date. |
 | **Moderation** | |
 | `/blacklist <username> <reason>` | Blacklists a user for a specific reason. If used inside a ticket, it will automatically transcribe and delete the ticket. |
-| `/purge` | Opens a menu to bulk delete tickets based on their status (e.g., All Open or All Closed). |
+| `/purge-tickets <age>` | Bulk deletes tickets older than the specified timeframe (Options: Everything, 24 Hours, 3 Days, 1 Week, 1 Month). |
 | **General** | |
 | `/help` | Displays the help menu with a comprehensive list of available commands. |
 | `/ping` | Checks the bot's latency and Discord API response time. |
