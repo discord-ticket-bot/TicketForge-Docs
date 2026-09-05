@@ -30,7 +30,7 @@ You can fine-tune where commands work:
 | **Tickets** | |
 | `/add <user/role>` | Adds a specific user or an entire role to the current ticket. |
 | `/archive` | Transcribes the current ticket. |
-| `/close` | Closes the current ticket (triggers the Close logic configured in the panel). |
+| `/close <reason>` | Closes the current ticket with a provided reason (triggers the Close logic configured in the panel). |
 | `/delete` | Permanently deletes the current ticket channel. |
 | `/escalate` | Moves the current ticket to a different panel/department (e.g., Support -> Billing). |
 | `/remove <user/role>` | Removes a specific user or role from the current ticket. |
@@ -44,6 +44,7 @@ You can fine-tune where commands work:
 | `/setup` | Launches the interactive setup wizard for creating and managing panels directly in Discord. |
 | `/premium` | Shows the current server subscription tier, active features, and expiry date. |
 | **Moderation** | |
+| `/blacklist <username> <reason>` | Blacklists a user for a specific reason. If used inside a ticket, it will automatically transcribe and delete the ticket. |
 | `/purge` | Opens a menu to bulk delete tickets based on their status (e.g., All Open or All Closed). |
 | **General** | |
 | `/help` | Displays the help menu with a comprehensive list of available commands. |
