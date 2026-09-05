@@ -32,7 +32,7 @@ You can fine-tune where commands work:
 | `/archive` | Transcribes the current ticket. |
 | `/close <reason>` | Closes the current ticket with a provided reason (triggers the Close logic configured in the panel). |
 | `/delete` | Permanently deletes the current ticket channel. |
-| `/escalate` | Moves the current ticket to a different panel/department (e.g., Support -> Billing). |
+| `/escalate <reason>` | Moves the current ticket to a different panel/department with a provided reason (e.g., Support -> Billing). |
 | `/remove <user/role>` | Removes a specific user or role from the current ticket. |
 | `/rename <name>` | Renames the current ticket channel to the specified name. |
 | `/re-open` | Re-opens a previously closed ticket for further communication. |
